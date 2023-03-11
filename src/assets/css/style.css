@@ -1,0 +1,141 @@
+body {
+  margin: 0px;
+  background: #F5F5F5;
+}
+
+.tableContent {
+  width: calc(100% - 280px);
+  margin-left: 260px;
+  position: absolute;
+  top: 130px;
+  background: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.loginDiv {
+  position: fixed;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  background-color: #232E48;
+}
+
+.logoIcon {
+  padding: 5px;
+  background: #fff;
+}
+
+.tableContent table {
+  border: none;
+}
+
+.tableContent table td {
+  padding: 5px;
+  font-size: 14px;
+
+}
+
+.tableContent table thead {
+  background: #ddd;
+}
+
+.tableContent table thead th {
+  white-space: nowrap;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tableContent table td button {
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  line-height: 20px;
+  font-size: 13px; 
+}
+
+.Drawer ul li div div:first-child {
+  min-width: 35px;
+}
+
+.tableContent tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tableContent tr:hover {
+  background-color: #ddd;
+}
+
+.markedAttendance {
+  color: skyblue;
+}
+
+.markedAttendance:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.arrowbackIcon {
+  background-color: #232E48;
+  padding: 5px;
+  border-radius: 50px;
+  color: white;
+}
+
+.closeBtn:hover {
+  opacity: 0.5;
+}
+
+.filterIcon {
+  background-color: #232E48;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  padding: 10px;
+}
+.filterIcon:hover{
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: black;
+}
+
+.btn:active {
+  box-shadow: grey;
+  transform: translate(0, 0);
+
+}
+
+.personIcon {
+  color: #232E48;
+  margin-left: 95%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+
+.starlabel label:after {
+  content:"*";
+  color: red;
+  margin-left: 3px;
+  font-size: 20px;
+}
+
+.textField{
+  margin-top: 20px;
+  width:400px
+}
+
+.accordion:hover{
+  cursor: pointer;
+  background-color:#232E48;
+  color:white;
+  opacity: 0.9;
+}
